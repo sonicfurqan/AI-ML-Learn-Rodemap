@@ -1,0 +1,14 @@
+ 
+
+[project]
+name = "calculator"
+version = "0.1.0"
+description = "simple calculator app"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit>=1.54.0",
+]
+
+
+ 
