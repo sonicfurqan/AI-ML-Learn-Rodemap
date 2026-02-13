@@ -29,9 +29,8 @@ The project is divided into four distinct phases:
 | **1.1** | **Env & UI Setup** | Install `streamlit`, `pandas`, `openai`. Create `app.py`. Set `openai.api_base = "http://localhost:1234/v1"` in your code. | App runs and prints "Connected to Local LLM" on the screen. | [Link](https://lmstudio.ai/docs/welcome) |
 | **1.2** | **Logic UI: Calculator** | Build a Streamlit app with 2 inputs and a "Calculate" button. Handle logic in Python, show result in UI. | You can add/subtract numbers in the browser without errors. | [Link](https://docs.streamlit.io/library/api-reference/widgets) |
 | **1.3** | **State: To-Do List** | Use `st.session_state` to store tasks. Save to `todos.json` on every change so data persists on reload. | Closing the browser and reopening it shows your old tasks. | [Link](https://docs.streamlit.io/library/api-reference/session-state) |
-| **1.4** | **Pandas: Load CSV** | Create `st.file_uploader`. Load the Housing CSV. Display it using `st.dataframe()`. | You upload the CSV and see the table of house prices. | [Link](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html) |
-| **1.5** | **ML: Visual Cleaning** | Show "Missing Values" count. Add a button to `df.dropna()` or `df.fillna()`. Show updated count. | Clicking "Clean" reduces missing value count to 0 in the UI. | [Link](https://realpython.com/python-data-cleaning-numpy-pandas/) |
-| **1.6** | **Capstone: Price UI** | Train Linear Regression on "Area" vs "Price". Create UI input for "Area". Predict Price. | You type "5000 sqft" -> App shows "Predicted: $850k". | [Link](https://docs.streamlit.io/knowledge-base/tutorials/build-conversational-apps) |
+| **1.4** | **Pandas: Load CSV and Cleaning** | Create juypter book to load and then clean data. | Plot graphs using clean data. | [Link](https://www.kaggle.com/learn/data-cleaning) |
+| **1.5** | **Capstone: Price UI** | Train Linear Regression on "Area" vs "Price". Create UI input for "Area". Predict Price. | You type "5000 sqft" -> App shows "Predicted: $850k". | [Link](https://docs.streamlit.io/knowledge-base/tutorials/build-conversational-apps) |
 
 ---
 
