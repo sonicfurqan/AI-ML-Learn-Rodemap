@@ -1,6 +1,7 @@
 # Machine Learning Algorithm Mastery
 - **Objective:** Master 11 core ML algorithms through implementation and project-based validation.
 - **Inspired By:** [Video from Infinite Codes](https://www.youtube.com/watch?v=E0Hmnixke2g&t=139s)
+- **Scoring Parameters** [Learn about model scoring](https://www.datasource.ai/en/data-science-articles/model-evaluation-metrics-in-machine-learning)
 
 
 ---
