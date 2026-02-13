@@ -30,7 +30,7 @@ The project is divided into four distinct phases:
 | **1.2** | **Logic UI: Calculator** | Build a Streamlit app with 2 inputs and a "Calculate" button. Handle logic in Python, show result in UI. | You can add/subtract numbers in the browser without errors. | [Link](https://docs.streamlit.io/library/api-reference/widgets) |
 | **1.3** | **State: To-Do List** | Use `st.session_state` to store tasks. Save to `todos.json` on every change so data persists on reload. | Closing the browser and reopening it shows your old tasks. | [Link](https://docs.streamlit.io/library/api-reference/session-state) |
 | **1.4** | **Pandas: Load CSV and Cleaning** | Create juypter book to load and then clean data. | Plot graphs using clean data. | [Link](https://www.kaggle.com/learn/data-cleaning) |
-| **1.5** | **Capstone: Price UI** | Train Linear Regression on "Area" vs "Price". Create UI input for "Area". Predict Price. | You type "5000 sqft" -> App shows "Predicted: $850k". | [Link](https://docs.streamlit.io/knowledge-base/tutorials/build-conversational-apps) |
+| **1.5** | **Capstone: Price UI** | Train Linear Regression on "Area" vs "Price". Create UI input for "Area". Predict Price. | You type "5000 sqft" -> App shows "Predicted: $850k". | [Link](https://medium.com/data-science/linear-regression-on-housing-csv-data-kaggle-10b0edc550ed) |
 
 ---
 
