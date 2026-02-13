@@ -32,6 +32,8 @@ The project is divided into four distinct phases:
 | **1.4** | **Pandas: Load CSV and Cleaning** | Create juypter book to load and then clean data. | Plot graphs using clean data. | [Link](https://www.kaggle.com/learn/data-cleaning) |
 | **1.5** | **Capstone: Price UI** | Train Linear Regression on "Area" vs "Price". Create UI input for "Area". Predict Price. | You type "5000 sqft" -> App shows "Predicted: $850k". | [Link](https://medium.com/data-science/linear-regression-on-housing-csv-data-kaggle-10b0edc550ed) |
 
+### Bonus 
+- Complete tasks in Bonus ML Projects for better undersanding of ML Learning types and  Models
 ---
 
 ## 🧠 Phase 2: RAG (Retrieval Augmented Generation)
