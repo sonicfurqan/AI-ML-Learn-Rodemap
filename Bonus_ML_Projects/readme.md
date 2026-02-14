@@ -10,6 +10,7 @@
 
 ### 1. Linear Regression
 - **Theory:** [A Beginner's Guide to Linear Regression](https://www.datasource.ai/en/data-science-articles/a-beginner-s-guide-to-linear-regression-in-python-with-scikit-learn)
+- [Explanation of Linear Regression][https://www.youtube.com/watch?v=3bvM3NyMiE0]
 - **Project:** Salary Predictor (Dataset: YearsExperience vs Salary)
 - **Acceptance Criteria:**
   - Calculate and print Slope (Coefficient) and Intercept.
