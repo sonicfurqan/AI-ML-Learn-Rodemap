@@ -38,7 +38,7 @@
   - Predict species for custom input `[5.1, 3.5, 1.4, 0.2]`.
 
 ### 4. Naive Bayes
-- **Theory:** [Naive Bayes Spam Filter](https://medium.com/data-science/na%C3%AFve-bayes-spam-filter-from-scratch-12970ad3dae7)
+- **Theory:** [Naive Bayes Spam Filter](https://medium.com/data-science/na%C3%AFve-bayes-spam-filter-from-scratch-12970ad3dae7)[Kaggle Link](https://www.kaggle.com/code/jeffysonar/spam-filter-using-naive-bayes-classifier/input)
 - **Project:** SMS Spam Filter (Dataset: SMS Spam Collection)
 - **Acceptance Criteria:**
   - Implement `CountVectorizer` (Bag of Words).
