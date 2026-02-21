@@ -43,8 +43,8 @@ The project is divided into four distinct phases:
 | :--- | :--- | :--- | :--- | :--- |
 | **2.1** | **Local Chatbot UI** | Connect `st.chat_input` to LM Studio. Send user text to `http://localhost:1234/v1`. Stream response. | You say "Hi", Local Llama replies "Hello!" in the UI. | [Link](https://blog.streamlit.io/how-to-build-an-llm-powered-app-from-scratch/) |
 | **2.2** | **Embedding Test** | Install `sentence-transformers` (runs locally). Turn user text into a vector list `[0.1, 0.4...]`. | You type a word, and the app shows a list of numbers (the vector). | [Link](https://sbert.net/) |
-| **2.3** | **Vector DB Setup** | Install `chromadb`. Create a persistent client. Create a collection named "my_docs". | Code runs without error and creates a `chroma` folder locally. | [Link](https://docs.trychroma.com/getting-started) |
-| **2.4** | **PDF Ingestion** | Upload PDF in UI. Extract text. Chunk it (500 chars). Store in ChromaDB. | Upload PDF -> Success Message "Stored 50 chunks". | [Link](https://python.langchain.com/docs/modules/data_connection/document_loaders/pdf) |
+| **2.3** | **Vector DB Setup** | Install `chromadb`. Create a persistent client. Create a collection named "my_docs". | Code runs without error and creates a `chroma` folder locally. | [Link](https://docs.trychroma.com/docs/overview/getting-started) |
+| **2.4** | **PDF Ingestion** | Upload PDF in UI. Extract text. Chunk it (500 chars). Store in ChromaDB. | Upload PDF -> Success Message "Stored 50 chunks". | [Link](https://pymupdf.readthedocs.io/en/latest/installation.html) |
 | **2.5** | **Capstone: PDF Chat** | 1. User asks Q.<br>2. Search ChromaDB.<br>3. Send Top 3 chunks + Q to LM Studio.<br>4. Show Answer. | Asking "What is the 1st amendment?" gives the exact text from the PDF. | [Link](https://python.langchain.com/docs/use_cases/question_answering/local_retrieval_qa) |
 
 ---
