@@ -1,0 +1,25 @@
+[project]
+name = "ragpdfchat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "arize-phoenix>=13.3.0",
+    "bs4>=0.0.2",
+    "chromadb>=1.5.1",
+    "crewai>=0.193.2",
+    "crewai-tools>=0.76.0",
+    "langchain>=1.2.10",
+    "langchain-chroma>=0.1.2",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.10",
+    "langchain-text-splitters>=1.1.1",
+    "openai>=2.23.0",
+    "openinference-instrumentation-crewai>=0.1.19",
+    "openinference-instrumentation-langchain>=0.1.59",
+    "openinference-instrumentation-openai>=0.1.41",
+    "pypdf>=6.7.2",
+    "streamlit>=1.54.0",
+    "uuid>=1.30",
+]
