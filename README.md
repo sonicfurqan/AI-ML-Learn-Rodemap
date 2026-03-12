@@ -47,6 +47,9 @@ The project is divided into four distinct phases:
 | **2.4** | **PDF Ingestion** | Upload PDF in UI. Extract text. Chunk it (500 chars). Store in ChromaDB. | Upload PDF -> Success Message "Stored 50 chunks". | [Link](https://pymupdf.readthedocs.io/en/latest/installation.html) |
 | **2.5** | **Capstone: PDF Chat** | 1. User asks Q.<br>2. Search ChromaDB.<br>3. Send Top 3 chunks + Q to LM Studio.<br>4. Show Answer. | Asking "What is the 1st amendment?" gives the exact text from the PDF. | [Link](https://python.langchain.com/docs/use_cases/question_answering/local_retrieval_qa) |
 
+
+### Bonus 
+- Complete tasks in Bonus RAG Projects for better undersanding of RAG and its basics
 ---
 
 ## 🤖 Phase 3: Agents & Tool Use

@@ -1,7 +1,6 @@
  
 ### 🗺️ The RAG Mastery Path
  
-
 1. **Phase 1: Github cookbook**
 * **Goal:** Understand building bloks of rag
 * **Resource** 
@@ -13,8 +12,6 @@
 * **Goal:** Efficiently feeding retrieved data to the LLM.
 * **Focus:** Managing context windows, prompt templating, and handling multi-turn conversations.
 * **Resource:** [DeepLearning.AI: LangChain for LLM Application Development](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
-
-
 
  
 3. **Phase 3: Github cookbook**
